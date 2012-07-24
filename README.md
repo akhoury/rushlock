@@ -12,3 +12,5 @@ instructions:
  * Find the 'rushlock' directory, select it and voila !
 
 Now everything you write in /h will be lower case, no more yelling [period]
+
+Still need more work to handle the @NAME LASTNAME shit in facebook
