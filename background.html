@@ -1,0 +1,12 @@
+<html>
+<body>	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script>
+chrome.tabs.onUpdated.addListener(function(tabId, changeInfo) {
+    if (changeInfo.status === 'complete') {
+		chrome.tabs.executeScript(null, {allFrames:true, file:"supress-caps.js"});
+    }
+});
+</script>
+</body>
+</html>
